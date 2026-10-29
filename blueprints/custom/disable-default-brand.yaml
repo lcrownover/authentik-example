@@ -1,0 +1,9 @@
+version: 1
+metadata:
+  name: disable-default-brand
+entries:
+  - model: authentik_brands.brand
+    identifiers:
+      domain: authentik-default
+    attrs:
+      default: false
